@@ -6,6 +6,7 @@ web/app/upgrade
 web/app/themes/*
 !web/app/themes/.gitkeep
 !web/app/themes/index.php
+!web/app/plugins/index.php
 
 # WordPress
 wp
