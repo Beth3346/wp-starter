@@ -29,8 +29,8 @@ echo "Site Address: "
 read -e siteaddress
 
 # accept user input for the database name
-echo "Database Name: "
-read -e dbname
+# echo "Database Name: "
+# read -e dbname
 
 # accept user input for the database user
 # echo "Database user: "
@@ -104,7 +104,7 @@ cd web/app/themes/wp-starter-theme
 
 composer install
 
-cd ../../../
+cd ../../../../
 
 echo "================================================================="
 echo "Installation is complete. Your username/password is listed below."
